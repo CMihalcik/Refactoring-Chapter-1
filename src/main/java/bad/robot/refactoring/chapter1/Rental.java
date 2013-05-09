@@ -1,24 +1,25 @@
 package bad.robot.refactoring.chapter1;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Rental {
 
-    private Movie movie;
+    private Rentable rentable;
     private int daysRented;
 
-    public Rental(Movie movie, int daysRented) {
-        this.movie = movie;
+    public Rental(Rentable movie, int daysRented) {
+        this.rentable = movie;
         this.daysRented = daysRented;
     }
 
-    public Movie getMovie() {
-        return movie;
+    public String getTitle() {
+        return rentable.getTitle();
     }
 
-    public int getDaysRented() {
-        return daysRented;
+    public double calculateAmout() {
+        return rentable.calculateAmoutStrategy(daysRented);
+    }
+
+    public int calculateFrequentRenterPoints() {
+        return rentable.calculateFrequentRenterPointsStrategy();
     }
 
 }
