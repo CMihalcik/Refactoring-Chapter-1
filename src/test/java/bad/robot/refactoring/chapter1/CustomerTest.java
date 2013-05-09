@@ -2,6 +2,7 @@ package bad.robot.refactoring.chapter1;
 
 import bad.robot.refactoring.chapter1.rentables.RegularMovie;
 import org.junit.Test;
+import static junit.framework.Assert.assertEquals;
 
 /**
  * Created with IntelliJ IDEA.
@@ -30,13 +31,13 @@ public class CustomerTest {
         // Execute Statement
         String statementResult = customer.statement();
 
-        // log it
-        String expecedResult = "Rental record for A Customer\n" +
+        // Assert result
+        final String expecedResult = "Rental record for A Customer\n" +
                 "\tA Regular Movie\t2.0\n" +
                 "Amount owed is 2.0\n" +
                 "You earned 1 frequent renter points";
 
-        junit.framework.Assert.assertEquals(expecedResult, statementResult);
+        assertEquals(expecedResult, statementResult);
 
     }
 }
