@@ -1,7 +1,7 @@
 package bad.robot.refactoring.chapter1;
 
 /**
- * A rentable item, must have a title and
+ * A rentable item, must have a title.
  */
 public interface Rentable {
 
