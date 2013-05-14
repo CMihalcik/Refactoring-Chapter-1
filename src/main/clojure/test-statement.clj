@@ -36,7 +36,7 @@
 	regular movie	6.5
 	new release movie	6.5
 Amount owed is 14.5
-You earned 2 frequent renter points")
+You earned 4 frequent renter points")
 
 (def no-rentals-statement-expected-result "Rental record for Customer with no rentals
 Amount owed is 0.0
