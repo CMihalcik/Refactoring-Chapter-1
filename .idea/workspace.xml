@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc78a897-fe34-49a7-affa-b5c74ee42f58" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/clojure/test-statement.clj" afterPath="$PROJECT_DIR$/src/test/clojure/test/statement.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/refactoring.iml" afterPath="$PROJECT_DIR$/refactoring.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="refactoring.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -13,11 +11,12 @@
     <file path="/first.cls.clj" changelist="bc78a897-fe34-49a7-affa-b5c74ee42f58" time="1368419934591" ignored="false" />
     <file path="/Clojure REPL" changelist="bc78a897-fe34-49a7-affa-b5c74ee42f58" time="1368503816080" ignored="false" />
     <file path="/*.regexp" changelist="bc78a897-fe34-49a7-affa-b5c74ee42f58" time="1368299787909" ignored="false" />
-    <file path="/Customer.java" changelist="bc78a897-fe34-49a7-affa-b5c74ee42f58" time="1368503768014" ignored="false" />
-    <file path="/fragment.java" changelist="bc78a897-fe34-49a7-affa-b5c74ee42f58" time="1368499405138" ignored="false" />
+    <file path="/Customer.java" changelist="bc78a897-fe34-49a7-affa-b5c74ee42f58" time="1368584165235" ignored="false" />
+    <file path="/fragment.java" changelist="bc78a897-fe34-49a7-affa-b5c74ee42f58" time="1368585014434" ignored="false" />
     <file path="/LineItem.java" changelist="bc78a897-fe34-49a7-affa-b5c74ee42f58" time="1368501672904" ignored="false" />
-    <file path="/StatementTotals.java" changelist="bc78a897-fe34-49a7-affa-b5c74ee42f58" time="1368501511007" ignored="false" />
+    <file path="/StatementTotals.java" changelist="bc78a897-fe34-49a7-affa-b5c74ee42f58" time="1368583674065" ignored="false" />
     <file path="/statement.clj" changelist="bc78a897-fe34-49a7-affa-b5c74ee42f58" time="1368582421237" ignored="false" />
+    <file path="/Statement.java" changelist="bc78a897-fe34-49a7-affa-b5c74ee42f58" time="1368584149463" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,16 +87,34 @@
       <file leaf-file-name="statement.clj" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/clojure/test/statement.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
+            <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Customer.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Customer.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="41" selection-start="2280" selection-end="2280" vertical-scroll-proportion="0.0">
+            <state line="21" column="0" selection-start="378" selection-end="378" vertical-scroll-proportion="0.028220858">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rental.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/Rental.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="13" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Movie.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/Movie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="22" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -112,19 +129,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewReleaseMovie.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/rentables/NewReleaseMovie.java">
+      <file leaf-file-name="StatementTotals.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/StatementTotals.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="13" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
+            <state line="5" column="13" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StatementTotals.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/StatementTotals.java">
+      <file leaf-file-name="Statement.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/Statement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="15" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
+            <state line="12" column="0" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -139,19 +156,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="11" selection-start="743" selection-end="743" vertical-scroll-proportion="0.5128834">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scope_settings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/scopes/scope_settings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="19" column="11" selection-start="743" selection-end="743" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -178,12 +186,16 @@
         <option value="$PROJECT_DIR$/src/main/clojure/first.cls.clj" />
         <option value="$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/Rentable.java" />
         <option value="$PROJECT_DIR$/src/test/java/bad/robot/refactoring/chapter1/CustomerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/StatementTotals.java" />
         <option value="$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/LineItem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/Customer.java" />
         <option value="$PROJECT_DIR$/src/main/clojure/test-statement.clj" />
-        <option value="$PROJECT_DIR$/src/test/clojure/test/statement.clj" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/StatementTotals.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/Statement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/rentables/Movie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/rentables/Rentable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/statement/Statement.java" />
+        <option value="$PROJECT_DIR$/src/test/clojure/test/statement.clj" />
       </list>
     </option>
   </component>
@@ -312,6 +324,44 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chapter1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="refactoring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Refactoring-Chapter-1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chapter1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rentables" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -319,6 +369,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -334,6 +385,12 @@
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="bad.robot.refactoring.chapter1" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="bad.robot.refactoring.chapter1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/clojure/test" />
       <recent name="$PROJECT_DIR$/src/test/clojure" />
@@ -566,6 +623,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23968785" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -583,7 +641,6 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -654,25 +711,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="22" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/Rental.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="36" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="16" selection-start="707" selection-end="707" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -690,23 +728,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/Rentable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="38" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/StatementTotals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="15" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/rentables/NewReleaseMovie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
+        <state line="2" column="13" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -732,9 +756,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/Customer.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="41" selection-start="2280" selection-end="2280" vertical-scroll-proportion="0.0">
+        <state line="19" column="11" selection-start="743" selection-end="743" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/StatementTotals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/Rental.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -746,16 +784,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/clojure/test/statement.clj">
+    <entry file="file://$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/Statement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
+        <state line="12" column="0" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/Rentable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="11" selection-start="743" selection-end="743" vertical-scroll-proportion="0.5128834">
+        <state line="3" column="38" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="22" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/clojure/test/statement.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="378" selection-end="378" vertical-scroll-proportion="0.028220858">
           <folding />
         </state>
       </provider>
