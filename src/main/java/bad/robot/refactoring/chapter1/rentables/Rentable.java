@@ -1,4 +1,4 @@
-package bad.robot.refactoring.chapter1;
+package bad.robot.refactoring.chapter1.rentables;
 
 /**
  * A rentable item, must have a title.

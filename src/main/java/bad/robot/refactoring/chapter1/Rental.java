@@ -1,5 +1,7 @@
 package bad.robot.refactoring.chapter1;
 
+import bad.robot.refactoring.chapter1.rentables.Rentable;
+
 public class Rental {
 
     private Rentable rentable;

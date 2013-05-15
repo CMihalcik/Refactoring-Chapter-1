@@ -1,5 +1,6 @@
 package bad.robot.refactoring.chapter1;
 
+import bad.robot.refactoring.chapter1.rentables.Movie;
 import bad.robot.refactoring.chapter1.rentables.RegularMovie;
 import org.junit.Test;
 import static junit.framework.Assert.assertEquals;

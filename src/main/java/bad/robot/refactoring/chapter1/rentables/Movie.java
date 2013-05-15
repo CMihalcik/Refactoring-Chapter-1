@@ -1,4 +1,4 @@
-package bad.robot.refactoring.chapter1;
+package bad.robot.refactoring.chapter1.rentables;
 
 public abstract class Movie implements Rentable {
 

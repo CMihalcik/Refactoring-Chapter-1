@@ -1,7 +1,5 @@
 package bad.robot.refactoring.chapter1.rentables;
 
-import bad.robot.refactoring.chapter1.Movie;
-
 public class RegularMovie extends Movie {
 
     public final static double BASE_RATE = 2;

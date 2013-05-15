@@ -1,4 +1,5 @@
 (ns test.statement
+  (:import [bad.robot.refactoring.chapter1.rentables Movie])
   (:use
     [clojure.test])
   (:import (bad.robot.refactoring.chapter1.rentables ChildrensMovie RegularMovie NewReleaseMovie)
