@@ -1,4 +1,4 @@
-package bad.robot.refactoring.chapter1;
+package bad.robot.refactoring.chapter1.statement;
 
 /**
  * A single line item from a statement.

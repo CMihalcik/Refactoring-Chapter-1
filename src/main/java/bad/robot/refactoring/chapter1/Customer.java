@@ -1,5 +1,8 @@
 package bad.robot.refactoring.chapter1;
 
+import bad.robot.refactoring.chapter1.statement.LineItem;
+import bad.robot.refactoring.chapter1.statement.Statement;
+
 import java.util.*;
 
 public class Customer {

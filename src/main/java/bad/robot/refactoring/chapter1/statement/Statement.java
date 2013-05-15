@@ -1,4 +1,6 @@
-package bad.robot.refactoring.chapter1;
+package bad.robot.refactoring.chapter1.statement;
+
+import bad.robot.refactoring.chapter1.Rental;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +11,7 @@ import java.util.List;
 public class Statement {
 
     private List<LineItem> lineItems;
-    private StatementTotals statementTotals;
+    private Totals statementTotals;
 
     public Statement(List<Rental> rentals) {
         this.lineItems = calculateStatementLineItems(rentals);
@@ -20,7 +22,7 @@ public class Statement {
         return lineItems;
     }
 
-    public StatementTotals getStatementTotals() {
+    public Totals getStatementTotals() {
         return statementTotals;
     }
 
@@ -50,9 +52,9 @@ public class Statement {
      *
      * Again, a StatementSummary class might hold these values.
      *
-     * @return a StatementTotals with statementTotals for cost and points
+     * @return a Totals with statementTotals for cost and points
      */
-    private StatementTotals calculateStatementAggregates(List<LineItem> lineItems) {
+    private Totals calculateStatementAggregates(List<LineItem> lineItems) {
 
         double cost = 0;
         int points = 0;
@@ -63,7 +65,7 @@ public class Statement {
             System.out.println("points: " + points);
         }
 
-        return new StatementTotals(cost, points);
+        return new Totals(cost, points);
     }
 
 

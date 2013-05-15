@@ -1,14 +1,14 @@
-package bad.robot.refactoring.chapter1;
+package bad.robot.refactoring.chapter1.statement;
 
 /**
  * Aggregate values for a statement
  */
-public class StatementTotals {
+public class Totals {
 
     private double amount;
     private int points;
 
-    public StatementTotals(double amount, int points) {
+    public Totals(double amount, int points) {
         this.amount = amount;
         this.points = points;
     }
