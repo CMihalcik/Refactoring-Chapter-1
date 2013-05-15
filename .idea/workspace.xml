@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc78a897-fe34-49a7-affa-b5c74ee42f58" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/LineItem.java" afterPath="$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/statement/LineItem.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/Statement.java" afterPath="$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/statement/Statement.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/StatementTotals.java" afterPath="$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/statement/Totals.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/Customer.java" afterPath="$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/Customer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/Movie.java" afterPath="$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/rentables/Movie.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/Rentable.java" afterPath="$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/rentables/Rentable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/rentables/ChildrensMovie.java" afterPath="$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/rentables/ChildrensMovie.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/bad/robot/refactoring/chapter1/CustomerTest.java" afterPath="$PROJECT_DIR$/src/test/java/bad/robot/refactoring/chapter1/CustomerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/rentables/NewReleaseMovie.java" afterPath="$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/rentables/NewReleaseMovie.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/rentables/RegularMovie.java" afterPath="$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/rentables/RegularMovie.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/Rental.java" afterPath="$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/Rental.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/clojure/test/statement.clj" afterPath="$PROJECT_DIR$/src/test/clojure/test/statement.clj" />
     </list>
     <ignored path="refactoring.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,9 +83,9 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="Rentable.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/Rentable.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/rentables/Rentable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="38" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
+            <state line="3" column="38" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -97,10 +100,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Customer.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Customer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="16" selection-start="615" selection-end="615" vertical-scroll-proportion="0.35214725">
+            <state line="30" column="16" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,25 +114,25 @@
       <file leaf-file-name="Rental.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/Rental.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="13" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
+            <state line="4" column="13" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Movie.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/Movie.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/rentables/Movie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="22" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
+            <state line="2" column="22" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChildrensMovie.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ChildrensMovie.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/rentables/ChildrensMovie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="41" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
+            <state line="9" column="41" selection-start="343" selection-end="343" vertical-scroll-proportion="0.23913044">
               <folding />
             </state>
           </provider>
@@ -202,6 +205,7 @@
         <option value="$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/statement/Statement.java" />
         <option value="$PROJECT_DIR$/src/test/clojure/test/statement.clj" />
         <option value="$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/rentables/ChildrensMovie.java" />
       </list>
     </option>
   </component>
@@ -655,7 +659,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="1024" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23968785" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -674,7 +678,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22620519" sideWeight="0.67001116" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22620519" sideWeight="0.67001116" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -772,13 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/rentables/ChildrensMovie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="41" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/bad/robot/refactoring/chapter1/CustomerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="0" selection-start="950" selection-end="950" vertical-scroll-proportion="0.0">
@@ -809,7 +806,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/Rental.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
+        <state line="4" column="13" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -828,16 +825,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/Rentable.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/rentables/Rentable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="38" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
+        <state line="3" column="38" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/Movie.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/rentables/Movie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="22" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
+        <state line="2" column="22" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -851,10 +848,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="16" selection-start="615" selection-end="615" vertical-scroll-proportion="0.35214725">
+        <state line="30" column="16" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bad/robot/refactoring/chapter1/rentables/ChildrensMovie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="41" selection-start="343" selection-end="343" vertical-scroll-proportion="0.23913044">
+          <folding />
         </state>
       </provider>
     </entry>
